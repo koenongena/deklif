@@ -9,18 +9,25 @@
                             <li class="mix {{ .category }}">
                                 <a href="{{ .url }}">
                                     <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="">
-                                    <div class="overly">
-                                        <div class="position-center">
-                                            <h2>{{ .name }}</h2>
-                                            <p>{{ .description }}</p>
+                                    <!--<div class="overly">-->
+                                        <!--<div class="position-center">-->
+                                            <!--<h2>{{ .name }}</h2>-->
+                                            <!--<p>{{ .description }}</p>-->
 
-                                        </div>
-                                    </div>
+                                        <!--</div>-->
+                                    <!--</div>-->
                                 </a>
                             </li>
                             {{ end }}
                         </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <p><a href="{{ $.Site.BaseURL}}fotos" class="black-anchor">Meer foto's</a></p>
                 </div>
             </div>
         </div>
