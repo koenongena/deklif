@@ -9,14 +9,14 @@
               <div class="portfolio-menu">
                 <ul>
                     <li class="filter" data-filter="all">Everything</li>
-                  {{ range .Site.Data.work.portfolio }}
+                  {{ range .Site.Data.fotos.portfolio }}
                     <li class="filter" data-filter=".{{ .category }}">{{ .category }}</li>
                   {{ end }}
                 </ul>
               </div>
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
-                  {{ range .Site.Data.work.portfolio }}
+                  {{ range .Site.Data.fotos.portfolio }}
                     <li class="mix {{ .category }}">
                       <a href="{{ .url }}">
                         <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="">
@@ -45,7 +45,7 @@
       <div class="col-md-12">
         <div class="block">
           <div id="clients-logo" class="owl-carousel">
-            {{ range .Site.Data.work.clients }}
+            {{ range .Site.Data.fotos.clients }}
             <div class="clients-logo-img">
               <a href="{{ .url }}"><img src="{{ $.Site.BaseURL }}{{ .image }}" alt="Features"></a>
             </div>
@@ -58,6 +58,6 @@
 </section>
 
 
-{{ if isset .Site.Data.work "call" }}
-  {{ partial "call-to-action.html" .Site.Data.work.call }}
+{{ if isset .Site.Data.fotos "call" }}
+  {{ partial "call-to-action.html" .Site.Data.fotos.call }}
 {{ end}}
