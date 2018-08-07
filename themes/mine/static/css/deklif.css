@@ -391,12 +391,12 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/shore.jpg") no-repeat;
+    background-position: bottom;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
+  padding-top: 50px;
+  /*padding-bottom: 107px;*/
   position: relative;
-  background-attachment: fixed;
 }
 #global-header:before {
   content: "";
@@ -413,7 +413,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
+  /*padding-left: 90px;*/
   text-align: center;
 }
 #global-header .block h1 {
