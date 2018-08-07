@@ -4,10 +4,10 @@
             <div class="col-md-12">
                 <div class="block">
                     <div class="portfolio-contant">
-                        <ul id="portfolio-contant-active">
+                        <ul id="portfolio-contant-active" data-featherlight-gallery data-featherlight-filter="a">
                             {{ range .Site.Data.index.fotos}}
                             <li class="mix {{ .category }}">
-                                <a href="{{ .url }}">
+                                <a href="{{ $.Site.BaseURL }}{{ .image }}">
                                     <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="">
                                     <!--<div class="overly">-->
                                         <!--<div class="position-center">-->
