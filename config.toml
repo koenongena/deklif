@@ -11,14 +11,18 @@ theme = "mine"
     url = "/fotos"
   [[menu.header]]
     weight = 3
-    name = "Blog"
-    url = "/blog"
+    name = "Informatie"
+    url = "/informatie"
   [[menu.header]]
     weight = 4
-    name = "Service"
-    url = "/service"
+    name = "Locatie"
+    url = "/locatie"
   [[menu.header]]
     weight = 5
+    name = "Prijzen"
+    url = "/prijzen"
+  [[menu.header]]
+    weight = 6
     name = "Contact"
     url = "/contact"
 
@@ -79,7 +83,7 @@ theme = "mine"
       url = "#"
 
   [params.call]
-    enable = true
+    enable = false
     title = "We design delightful digital experiences."
     paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
 
