@@ -1,0 +1,28 @@
+<section id="portfolio-work">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <div class="portfolio-contant">
+                        <ul id="portfolio-contant-active">
+                            {{ range .Site.Data.index.fotos}}
+                            <li class="mix {{ .category }}">
+                                <a href="{{ .url }}">
+                                    <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="">
+                                    <div class="overly">
+                                        <div class="position-center">
+                                            <h2>{{ .name }}</h2>
+                                            <p>{{ .description }}</p>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
