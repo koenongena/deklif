@@ -3,7 +3,7 @@
  * In airspace, it is called style.css
  * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
  * The original style.css is now called airspace.css
- * 
+ *
  */
 
 /*
@@ -946,4 +946,27 @@ header a.navbar-brand span{
   margin-top: 1em;
   color: white;
   background-color: black;
+}
+
+.middle-logo {
+  display: block;
+  width: 10em;
+  height: 150px;
+  padding-top: 120px;
+  margin: 42px auto 20px auto;
+}
+
+.middle-logo-info {
+  background: url(/img/icons/info.svg)  no-repeat top center;
+  background-size: 100px auto;
+}
+
+.middle-logo-waar {
+  background: url(/img/icons/globe.svg)  no-repeat top center;
+  background-size: 100px auto;
+}
+
+.middle-logo-beschikbaarheid {
+  background: url(/img/icons/talk.svg)  no-repeat top center;
+  background-size: 90px auto;
 }
