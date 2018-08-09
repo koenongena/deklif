@@ -907,6 +907,10 @@ footer .footer-manu ul li a:hover {
 
 .full-width-container {
     width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .table-container {
@@ -946,6 +950,16 @@ header a.navbar-brand span{
   margin-top: 1em;
   color: white;
   background-color: black;
+}
+
+.middle-text {
+  height: 350px;
+  height: 25em;
+}
+
+.middle-link {
+  height: 48px;
+  height: 3em;
 }
 
 .middle-logo {
