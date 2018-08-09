@@ -2,18 +2,18 @@
 
 <!-- Portfolio Start -->
 <section id="portfolio-work">
-    <div class="container">
+    <div class="container ">
         <div class="row">
           <div class="col-md-12">
             <div class="block">
-              <div class="portfolio-contant">
-                <ul id="portfolio-contant-active">
+                <div class="portfolio-contant">
+                <ul data-featherlight-gallery data-featherlight-filter="a">
                   {{ range .Site.Data.fotos.all}}
-                    <li class="mix {{ .category }}">
-                      <a href="{{ .url }}">
-                        <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="">
-                      </a>
-                  </li>
+                    <li>
+                        <a href="{{ $.Site.BaseURL }}{{ .image }}">
+                            <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="">
+                        </a>
+                    </li>
                   {{ end }}
                 </ul>
               </div>
