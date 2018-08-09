@@ -12,6 +12,12 @@ px      68    160    252    344    436    528    620    712    804    896    */
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+  .portfolio-contant ul li {
+    width: 300px;
+    height: 200px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /*---------------------------------------------
 					Index Start 
@@ -80,30 +86,36 @@ px      68    160    252    344    436    528    620    712    */
   /*--
 	portfolio Start 
 --*/
-  #portfolio-work .block .portfolio-manu {
+  .portfolio-manu {
     padding-left: 0px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading {
+
+  .portfolio-contant ul li {
+    width: 300px;
+    height: 200px;
+  }
+
+  .portfolio-contant ul li a .img-heading {
     padding: 5px 0 5px 13px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading h2 {
+  .portfolio-contant ul li a .img-heading h2 {
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading p {
+  .portfolio-contant ul li a .img-heading p {
     font-size: 11px;
     line-height: 20px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay {
+  .portfolio-contant ul li a .overlay {
     padding-left: 15px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay h2 {
+  .portfolio-contant ul li a .overlay h2 {
     padding-top: 30px;
     padding-bottom: 15px;
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay p {
+  .portfolio-contant ul li a .overlay p {
     font-size: 11px;
     line-height: 20px;
     padding-top: 15px;
@@ -269,37 +281,40 @@ px      68    160    252    */
   /*--
 	portfolio Start 
 --*/
-  #portfolio-work .block .portfolio-manu {
+  .portfolio-manu {
     padding-left: 0px;
     text-align: center;
   }
-  #portfolio-work .block .portfolio-manu ul li {
+  .portfolio-manu ul li {
     padding: 0 8px;
   }
-  #portfolio-work .block .portfolio-contant ul li {
-    width: 100%;
+
+  .portfolio-contant ul li {
+    width: 356px;
+    height: 230px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading {
+
+  .portfolio-contant ul li a .img-heading {
     padding: 5px 0 5px 13px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading h2 {
+  .portfolio-contant ul li a .img-heading h2 {
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .img-heading p {
+  .portfolio-contant ul li a .img-heading p {
     font-size: 11px;
     line-height: 20px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay {
+  .portfolio-contant ul li a .overlay {
     padding-left: 15px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay h2 {
+  .portfolio-contant ul li a .overlay h2 {
     padding-top: 65px;
     padding-bottom: 15px;
     font-size: 20px;
     line-height: 25px;
   }
-  #portfolio-work .block .portfolio-contant ul li a .overlay p {
+  .portfolio-contant ul li a .overlay p {
     font-size: 11px;
     line-height: 20px;
     padding-top: 15px;

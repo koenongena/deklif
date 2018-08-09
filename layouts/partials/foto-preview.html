@@ -2,34 +2,29 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="block">
-                    <div class="portfolio-contant">
-                        <ul id="portfolio-contant-active" data-featherlight-gallery data-featherlight-filter="a">
-                            {{ range .Site.Data.index.fotos}}
-                            <li class="mix {{ .category }}">
-                                <a href="{{ $.Site.BaseURL }}{{ .image }}">
-                                    <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="" style="margin-top: -{{ .offset }}px;">
-                                    <!--<div class="overly">-->
-                                        <!--<div class="position-center">-->
-                                            <!--<h2>{{ .name }}</h2>-->
-                                            <!--<p>{{ .description }}</p>-->
-
-                                        <!--</div>-->
-                                    <!--</div>-->
-                                </a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="text-center">
-                    <p><a href="{{ $.Site.BaseURL}}fotos" class="black-anchor">Meer foto's</a></p>
+                <div class="portfolio-contant">
+                    <ul data-featherlight-gallery data-featherlight-filter="a">
+                        {{ range .Site.Data.index.fotos}}
+                        <li>
+                            <a href="{{ $.Site.BaseURL }}{{ .image }}">
+                                <img src="{{ $.Site.BaseURL }}{{ .image }}" alt=""
+                                     style="margin-top: -{{ .offset }}px;">
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center">
+                <p><a href="{{ $.Site.BaseURL}}fotos" class="black-anchor">Meer foto's</a></p>
+            </div>
+        </div>
+    </div>
+</div>
