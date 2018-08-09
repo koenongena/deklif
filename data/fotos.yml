@@ -3,33 +3,75 @@ title: Foto's
 subtitle:
 
 all:
-  - category: Branding
-    url: "#"
-    image: "/img/fotos/6.jpg"
-    name: Tesla Motors
-    description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Websites
-    url: "#"
-    image: "/img/fotos/7.jpg"
-    name: Tesla Motors
-    description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Graphics
-    url: "#"
-    image: "/img/fotos/8.jpg"
-    name: Tesla Motors
-    description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Design
-    url: "#"
-    image: "/img/fotos/9.jpg"
-    name: Tesla Motors
-    description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Video
-    url: "#"
-    image: "/img/fotos/10.jpg"
-    name: Tesla Motors
-    description: >
-      Labore et dolore magna aliqua. Ut enim ad
+- url: "#"
+  image: "img/fotos/165.jpg"
+- url: "#"
+  image: "img/fotos/115.jpg"
+- url: "#"
+  image: "img/fotos/11.jpg"
+- url: "#"
+  image: "img/fotos/120.jpg"
+- url: "#"
+  image: "img/fotos/127.jpg"
+- url: "#"
+  image: "img/fotos/129.jpg"
+- url: "#"
+  image: "img/fotos/12.jpg"
+- url: "#"
+  image: "img/fotos/130.jpg"
+- url: "#"
+  image: "img/fotos/132.jpg"
+- url: "#"
+  image: "img/fotos/133.jpg"
+- url: "#"
+  image: "img/fotos/13.jpg"
+- url: "#"
+  image: "img/fotos/140.jpg"
+- url: "#"
+  image: "img/fotos/143.jpg"
+- url: "#"
+  image: "img/fotos/144.jpg"
+- url: "#"
+  image: "img/fotos/147.jpg"
+- url: "#"
+  image: "img/fotos/15.jpg"
+- url: "#"
+  image: "img/fotos/160.jpg"
+- url: "#"
+  image: "img/fotos/16.jpg"
+- url: "#"
+  image: "img/fotos/175.jpg"
+- url: "#"
+  image: "img/fotos/178.jpg"
+- url: "#"
+  image: "img/fotos/21.jpg"
+- url: "#"
+  image: "img/fotos/24.jpg"
+- url: "#"
+  image: "img/fotos/25.jpg"
+- url: "#"
+  image: "img/fotos/27.jpg"
+- url: "#"
+  image: "img/fotos/28.jpg"
+- url: "#"
+  image: "img/fotos/32.jpg"
+- url: "#"
+  image: "img/fotos/36.jpg"
+- url: "#"
+  image: "img/fotos/42.jpg"
+- url: "#"
+  image: "img/fotos/43.jpg"
+- url: "#"
+  image: "img/fotos/47.jpg"
+- url: "#"
+  image: "img/fotos/49.jpg"
+- url: "#"
+  image: "img/fotos/54.jpg"
+- url: "#"
+  image: "img/fotos/6.jpg"
+- url: "#"
+  image: "img/fotos/7.jpg"
+- url: "#"
+  image: "img/fotos/8.jpg"
+- url: "#"
+  image: "img/fotos/zwembad.jpg"
