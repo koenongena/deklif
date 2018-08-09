@@ -8,7 +8,7 @@
                             {{ range .Site.Data.index.fotos}}
                             <li class="mix {{ .category }}">
                                 <a href="{{ $.Site.BaseURL }}{{ .image }}">
-                                    <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="">
+                                    <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="" style="margin-top: -{{ .offset }}px;">
                                     <!--<div class="overly">-->
                                         <!--<div class="position-center">-->
                                             <!--<h2>{{ .name }}</h2>-->

@@ -5,31 +5,23 @@ subtitle: Don’t just take our word for it. Check out some of our latest work.
 fotos:
   - url: "#"
     image: "/img/fotos/zwembad.jpg"
-    name: --
-    description: >
-      
+    offset: 0
   - url: "#"
     image: "/img/fotos/6.jpg"
-    name: --
-    description: >
-      
+    offset: 0
+
   - url: "#"
-    image: "/img/fotos/12.jpg"
-    name: --
-    description: >
-      
+    image: "/img/fotos/54.jpg"
+    offset: 0
+
   - url: "#"
-    image: "/img/fotos/15.jpg"
-    name: --
-    description: >
-      
+    image: "/img/fotos/37.jpg"
+    offset: 0
+
   - url: "#"
-    image: "/img/fotos/16.jpg"
-    name: --
-    description: >
-      
+    image: "/img/fotos/36.jpg"
+    offset: 70
+
   - url: "#"
-    image: "/img/fotos/23.jpg"
-    name: --
-    description: >
-      
+    image: "/img/fotos/42.jpg"
+    offset: 110
