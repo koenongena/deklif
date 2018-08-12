@@ -999,3 +999,8 @@ header a.navbar-brand span{
   background: url(/img/icons/talk.svg)  no-repeat top center;
   background-size: 90px auto;
 }
+
+#prijzen h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
