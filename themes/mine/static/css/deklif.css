@@ -46,10 +46,24 @@ p {
   font-size: 15px;
   line-height: 28px;
 }
+
+.only-tekst-pagina p {
+  letter-spacing: 1px;
+  line-height: 32px;;
+  margin-bottom: 24px;
+  margin-bottom: 1.5em;
+}
+
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.only-tekst-pagina ul {
+  list-style: disc;
+  margin: 0 0 0 32px;
+  margin: 0 0 0 2em;
 }
 a,
 a:active,

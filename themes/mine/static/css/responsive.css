@@ -183,6 +183,11 @@ px      68    160    252    */
   p {
     font-size: 13px;
   }
+
+  .only-tekst-pagina li,p {
+    line-height: 20px;
+  }
+
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
     margin-bottom: 20px;
