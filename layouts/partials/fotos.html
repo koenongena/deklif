@@ -7,10 +7,10 @@
           <div class="col-md-12">
             <div class="block">
                 <div class="portfolio-contant">
-                <ul data-featherlight-gallery data-featherlight-filter="a">
+                <ul>
                   {{ range .Site.Data.fotos.all}}
                     <li>
-                        <a href="{{ $.Site.BaseURL }}{{ .image }}">
+                        <a class="gallery" href="{{ $.Site.BaseURL }}{{ .image }}">
                             <img src="{{ $.Site.BaseURL }}{{ .thumbnail}}" alt="">
                         </a>
                     </li>
