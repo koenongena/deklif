@@ -43,13 +43,13 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 28px;
 }
 
 .only-tekst-pagina p {
   letter-spacing: 1px;
-  line-height: 32px;;
+  line-height: 24px;;
   margin-bottom: 24px;
   margin-bottom: 1.5em;
 }
@@ -406,11 +406,13 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #global-header {
   background: url("../img/shore.jpg") no-repeat;
-    background-position: bottom;
+  background-position: bottom;
   background-size: cover;
   padding-top: 50px;
   /*padding-bottom: 107px;*/
   position: relative;
+  margin-bottom: 16px;
+  margin-bottom: 1em;
 }
 #global-header:before {
   content: "";
@@ -758,7 +760,8 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 25px;
 }
 .google-map {
-  position: relative;
+  width: 600px;
+  height: 450px;
 }
 .google-map #map {
   width: 100%;
