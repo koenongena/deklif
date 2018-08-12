@@ -11,7 +11,7 @@
                   {{ range .Site.Data.fotos.all}}
                     <li>
                         <a href="{{ $.Site.BaseURL }}{{ .image }}">
-                            <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="">
+                            <img src="{{ $.Site.BaseURL }}{{ .thumbnail}}" alt="">
                         </a>
                     </li>
                   {{ end }}

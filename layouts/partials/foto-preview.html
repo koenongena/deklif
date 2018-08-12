@@ -7,7 +7,7 @@
                         {{ range .Site.Data.index.fotos}}
                         <li>
                             <a href="{{ $.Site.BaseURL }}{{ .image }}">
-                                <img src="{{ $.Site.BaseURL }}{{ .image }}" alt=""
+                                <img src="{{ $.Site.BaseURL }}{{ .thumbnail }}" alt=""
                                      style="margin-top: -{{ .offset }}px;">
                             </a>
                         </li>

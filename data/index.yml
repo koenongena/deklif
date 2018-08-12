@@ -5,23 +5,29 @@ subtitle: Don’t just take our word for it. Check out some of our latest work.
 fotos:
   - url: "#"
     image: "/img/fotos/zwembad.jpg"
+    thumbnail: "/img/fotos/thumb.zwembad.jpg"
     offset: 0
   - url: "#"
     image: "/img/fotos/6.jpg"
+    thumbnail: "/img/fotos/thumb.6.jpg"
     offset: 0
 
   - url: "#"
     image: "/img/fotos/54.jpg"
+    thumbnail: "/img/fotos/thumb.54.jpg"
     offset: 0
 
   - url: "#"
     image: "/img/fotos/120.jpg"
+    thumbnail: "/img/fotos/thumb.120.jpg"
     offset: 0
 
   - url: "#"
     image: "/img/fotos/36.jpg"
+    thumbnail: "/img/fotos/thumb.36.jpg"
     offset: 70
 
   - url: "#"
     image: "/img/fotos/42.jpg"
+    thumbnail: "/img/fotos/thumb.42.jpg"
     offset: 90
